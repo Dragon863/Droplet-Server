@@ -1,0 +1,9 @@
+aiohttp
+fastapi
+sqlmodel
+python-dotenv
+sqlalchemy
+apscheduler
+appwrite
+pydantic
+onesignal-python-api

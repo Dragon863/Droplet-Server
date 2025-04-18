@@ -10,7 +10,7 @@ from onesignal.models import Notification
 import dotenv
 from apscheduler.schedulers.background import (
     BackgroundScheduler,
-)  # Import scheduler type
+)
 
 
 dotenv.load_dotenv()
