@@ -1,5 +1,5 @@
 aiohttp
-fastapi
+fastapi[standard]
 sqlmodel
 python-dotenv
 sqlalchemy
