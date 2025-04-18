@@ -1,0 +1,12 @@
+services:
+  droplet-api:
+    build: 
+      context: src/
+    env_file:
+      - src/.env
+    restart: unless-stopped
+    container_name: droplet-api
+    environment:
+      - TZ=Europe/London
+    ports:
+      - 5959:5959
