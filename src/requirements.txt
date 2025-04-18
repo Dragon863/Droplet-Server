@@ -7,3 +7,4 @@ apscheduler
 appwrite
 pydantic
 onesignal-python-api
+psycopg
