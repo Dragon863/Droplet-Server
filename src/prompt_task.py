@@ -122,7 +122,7 @@ def assign_prompt_owners(engine, scheduler: BackgroundScheduler):
             try:
                 scheduler.add_job(
                     sendNotification,
-                    trigger="date",  # run once at specific date or  time
+                    trigger="date",  # run once at specific date or time
                     run_date=notification_dt_utc,
                     args=[  # Args for sendNotification
                         f"It's your turn to write the prompt for {bubble_name} today!",
